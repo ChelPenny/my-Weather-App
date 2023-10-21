@@ -1,0 +1,87 @@
+body {
+  font-family: "PT Mono", monospace;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #5a6275;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 34px;
+  position: relative;
+  top: -107px;
+  left: 240px;
+}
+
+ul {
+  color: #5a6275;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 12px;
+  position: relative;
+  top: -130px;
+}
+
+.card {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.selected-city-icon {
+  position: relative;
+  font-size: 30px;
+  top: -50px;
+  left: 200px;
+  color: orange;
+}
+
+.future-days {
+  font-weight: bold;
+  color: #5a6275;
+  text-align: center;
+}
+.future-weather-icons {
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+
+.future-temperature {
+  font-weight: bold;
+  color: #5a6275;
+  text-align: center;
+}
+
+.future-grid-control {
+  position: relative;
+  top: -100px;
+}
+#celsius-link {
+  font-weight: bold;
+  color: #3b5ba5;
+  position: relative;
+  top: -153px;
+  left: 303px;
+}
+
+#fahrenheit-link {
+  font-weight: bold;
+  color: #3b5ba5;
+  position: relative;
+  top: -132px;
+  left: 284px;
+  text-decoration: none;
+}
+#current-Date {
+  font-weight: bold;
+}
